@@ -46,7 +46,7 @@ body {
     background-color: white;
     border-radius: 5px;
     overflow: hidden;
-    animation: modalShow linear 0.7s;
+    animation: modalShow linear 0.4s;
 }
 
 .modal__header {
