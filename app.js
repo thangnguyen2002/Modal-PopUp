@@ -7,8 +7,8 @@ var btnClose = document.querySelector('.modal__footer button')
 
 var toggleModal = (e) => {
     console.log(e.target)
-    // e.target la nhung su kien đã querySelector khi click vào chúng
-    // modal.classList.toggle('hide')
+    // e.target la nhung su kien đã querySelector trên khi click vào chúng
+    modal.classList.toggle('hide')
 }
 // function làm đối số thi` ko can ngoac (), co () tuc la goi function
 btnOpen.addEventListener('click', toggleModal)
